@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Karthikmasani/static/css/main.f13e42d7.css",
+    "main.js": "/Karthikmasani/static/js/main.9c150911.js",
+    "index.html": "/Karthikmasani/index.html",
+    "main.f13e42d7.css.map": "/Karthikmasani/static/css/main.f13e42d7.css.map",
+    "main.9c150911.js.map": "/Karthikmasani/static/js/main.9c150911.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f13e42d7.css",
+    "static/js/main.9c150911.js"
+  ]
+}
