@@ -1,9 +1,11 @@
+import logo from "./images/logo.png"
+
 const Navigation =()=>{
 
     return(
         <nav className="container">
           <div className="logo">
-            <img src="/images/logo.png" alt="logo" style={{width:"6rem",heigth:"5rem"}}/>
+            <img src={logo} alt="logo" style={{width:"6rem",heigth:"5rem"}}/>
           </div>
 
           <ul>

@@ -1,5 +1,8 @@
 import React from "react";
 import "./Hero.css"
+import shoes from "./images/shoes.png"
+import flipkart from "./images/flipkart.png"
+import amazon from "./images/amazon.png"
 
 const HeroSection = () =>{
 
@@ -19,14 +22,14 @@ const HeroSection = () =>{
                 </div>
                 <p className="descripition">Also Available on </p>
                 <div className="brand-icons">
-                    <img src="/images/flipkart.png" alt="flipkart" className='flipcart'/>
-                    <img src="/images/amazon.png" alt="amazon" className='amazon'/>
+                    <img src={flipkart} alt="flipkart" className='flipcart'/>
+                    <img src={amazon} alt="amazon" className='amazon'/>
                 </div>
                 </div>
             </div>
             <div class="col">
                 <div className="hero-image">
-                    <img src="/images/shoes.png" alt="shoes" />
+                    <img src={shoes} alt="shoes" />
                 </div>
             </div>
             
