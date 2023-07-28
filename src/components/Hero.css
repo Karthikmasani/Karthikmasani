@@ -1,0 +1,43 @@
+.secondary-btn{
+  margin-left:1rem;
+  color:var(--gray);
+  border:1px solid var(--gray) ;
+  
+}
+.first_btn{
+  background:var(--red);
+}
+
+.descripition{
+  margin-top:2rem;
+}
+.head{
+  font-weight: bold;
+}
+
+@media screen and (max-width:600px){
+  .title{
+    margin-top:3rem;
+    width:450px;
+  }
+  .hero-btn{
+    margin-top:4rem;
+  }
+  .brand-icons ,.descripition{
+    text-align: center;
+  }
+  .second_head{
+    margin-top:2rem;
+  }
+}
+
+
+@media screen and  (min-width:800px){
+  .main-container{
+    margin:4rem 0 0 3rem;
+
+  }
+  .title{
+    width:600px;
+  }
+}
